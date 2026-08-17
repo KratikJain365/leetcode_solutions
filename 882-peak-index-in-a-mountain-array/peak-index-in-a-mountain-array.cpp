@@ -11,9 +11,9 @@ public:
                 left = mid + 1;
             } else {
                 
-                right = mid ;
+                right = mid;
             }
         }
-        return right; // kisi bhi side kio return kara sakte ho:
+        return left;
     }
 };
